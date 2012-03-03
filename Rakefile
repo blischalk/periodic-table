@@ -5,3 +5,10 @@ Rspec::Core::RakeTask.new
 
 task :default => :spec
 task :test => :spec
+
+namespace :my_tasks do
+  desc 'Testing task'
+  task :the_task do
+    puts 'hello world'
+  end
+end
