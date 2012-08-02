@@ -10,3 +10,8 @@
 
     # Lookup data for an element by name
     PeriodicTable.lookup 'oxygen'
+=======
+periodic-table
+==============
+
+A exercise in gem creation
